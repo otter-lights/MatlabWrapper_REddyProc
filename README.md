@@ -4,7 +4,7 @@ This software package is a wrapper to simplify the use of the REddyProc package 
 
 Wutzler T, Lucas-Moffat A, Migliavacca M, Knauer J, Sickel K, Sigut, Menzer O & Reichstein M (2018) Basic and extensible post-processing of eddy covariance flux data with REddyProc. Biogeosciences, Copernicus, 15, doi: 10.5194/bg-15-5015-2018
 
-**Required Input Formatting**
+## Required Input Formatting
 
 Input data should be provided as a tab or space delimited ASCII file with the columns defined below. The wrapper provided is designed for half-hour eddy covariance data from non-arctic sites to be partitioned with either day-time or night-time processing. Data should be provided in full year chunks with missing data present but indicated as missing used ‘-9999’ as a filler value.
 
@@ -14,7 +14,7 @@ Other required data columns are the observed ‘NEE’ value in umolm^2s^1, sola
 
 Additionally, the first row of the data should contain either the units of the applicable values, or a filler value of ‘0’ or ‘-’
 
-**System Parameters**
+## System Parameters
     
 * *locationR* is a string parameter of the file path to the Rscript.exe file to run the R script from within Matlab, should be provided with double quotations 
     (ie "C:\Program Files\R\R-4.0.2\bin\Rscript.exe")
@@ -39,7 +39,7 @@ Additionally, the first row of the data should contain either the units of the a
 * *outFile* is a string value of the filename to save the data to, separate file names can be given for the day and night processing, do not include the file extension
     (ie. daydata)
 
-**Files Included**
+## Files Included
 
 More detailed information can be found in comments within each file, however this is a general overview of the purposes of each file. 
 
