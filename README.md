@@ -1,8 +1,6 @@
 # MatlabWrapper_REddyProc
 
-This software package is a wrapper to simplify the use of the REddyProc package developed by the Department of Biogeochemical Integration at the Max Planck Institute for Biogeochemistry for labs and users that primarily use Matlab for processing. 
-
-The purpose of the wrapper was to simplify use of the REddyProc methods by the CUBioMet Lab at Carleton University which primarily uses Matlab for processing of half hour eddy covariance data. The wrapper is a part of the research project of Razz Routly under the ICUREUS grant program. 
+This software package is a wrapper to simplify the use of the REddyProc package developed by the Department of Biogeochemical Integration at the Max Planck Institute for Biogeochemistry for labs and users that primarily use Matlab for processing. The wrapper is a part of the research project done by Razz Routly with the CUBioMet lab group at Carleton University. 
 
 Wutzler T, Lucas-Moffat A, Migliavacca M, Knauer J, Sickel K, Sigut, Menzer O & Reichstein M (2018) Basic and extensible post-processing of eddy covariance flux data with REddyProc. Biogeosciences, Copernicus, 15, doi: 10.5194/bg-15-5015-2018
 
