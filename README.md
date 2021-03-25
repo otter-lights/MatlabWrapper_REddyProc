@@ -19,25 +19,25 @@ Additionally, the first row of the data should contain either the units of the a
 **System Parameters**
     
 *locationR* is a string parameter of the file path to the Rscript.exe file to run the R script from within Matlab, should be provided with double quotations 
-ie "C:\Program Files\R\R-4.0.2\bin\Rscript.exe"
+    (ie "C:\Program Files\R\R-4.0.2\bin\Rscript.exe")
 
 *siteName* is a string parameter representing the name of the site, no spaces should be included in the name given
-    ie. MerBleue
+    (ie. MerBleue)
 
 *lat* is a decimal value for the latitude of the site in decimal degrees.
-    ie. 74.9
+    (ie. 74.9)
 
 *long* is a decimal value for the longitude of the site in decimal degrees
-    ie. -75.5
+    (ie. -75.5)
 
 *timeShift* is an integer value of the number of hours shifting from the local timezone to UTC (provided the data is measured in the local time zone)
-    ie. -5
+    (ie. -5)
     
 *inputFileName* is a string value of the filename for the pre processed data to be used in the R program, file extension should be included
-    ie. preProcessed.txt
+    (ie. preProcessed.txt)
 
 *day/night* are string values of ‘Y’ or ‘N’ indicating which of the partitioning methods to use with the R program
 
 *outFile* is a string value of the filename to save the data to, separate file names can be given for the day and night processing, do not include the file extension
-    ie. daydata
+    (ie. daydata)
 
