@@ -8,7 +8,7 @@ Wutzler T, Lucas-Moffat A, Migliavacca M, Knauer J, Sickel K, Sigut, Menzer O & 
 
 **Required Input Formatting**
 
-Input data should be provided as a tab or space delimited ASCII file with the columns defined below. The wrapper provided is designed for half-hour eddy covariance data from non-arctic sites to be partitioned with either day-time or night-time processing. Data should be provided in full year chunks with missing data present but indicated as missing used ‘-9999’ as a filler value.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Input data should be provided as a tab or space delimited ASCII file with the columns defined below. The wrapper provided is designed for half-hour eddy covariance data from non-arctic sites to be partitioned with either day-time or night-time processing. Data should be provided in full year chunks with missing data present but indicated as missing used ‘-9999’ as a filler value.
 
 Datetime information should be formatted in three columns labelled ‘Year’, ‘DoY’ (for Day of Year), and ‘Hour’ (with half hour values as .5). 
 
