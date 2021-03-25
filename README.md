@@ -41,3 +41,16 @@ Additionally, the first row of the data should contain either the units of the a
 * *outFile* is a string value of the filename to save the data to, separate file names can be given for the day and night processing, do not include the file extension
     (ie. daydata)
 
+**Files Included**
+
+More detailed information can be found in comments within each file, however this is a general overview of the purposes of each file. 
+
+* *dayPostProc.m* Matlab file that creates a date vector and timetable from the YDH formatted data in the processed day data.
+* *nightPostProc.m* Matlab file that creates a date vector and timetable from the YDH formatted data in the processed day data. Additionally, sets any night time values of GPP (when Rg < 20 W^-2) to 0. 
+
+* *start_script.m* Matlab file that takes parameters from the user to specify values for the REddyProc scripts explained below. 
+
+* *dayscript.R* Script written in R using the functions of the REddyProc library for the daytime partitioning method, based on the useCase vignette provided in the library (https://github.com/bgctw/REddyProc/blob/master/vignettes/useCase.md)
+* *nightscript.R* Script written in R using the functions of the REddyProc library for the night time partitioning method, based on the useCase vignette provided in the library (https://github.com/bgctw/REddyProc/blob/master/vignettes/useCase.md)
+
+
