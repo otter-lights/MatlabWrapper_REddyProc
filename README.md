@@ -23,7 +23,7 @@ Additionally, the first row of the data should contain either the units of the a
     (ie. MerBleue)
 
 * *lat* is a decimal value for the latitude of the site in decimal degrees.
-    (ie. 74.9)
+    (ie. 45.41)
 
 * *long* is a decimal value for the longitude of the site in decimal degrees
     (ie. -75.5)
